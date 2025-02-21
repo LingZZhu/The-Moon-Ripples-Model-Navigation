@@ -27,7 +27,7 @@ function init() {
     geometry.computeVertexNormals();
     const material = new THREE.PointsMaterial({
       vertexColors: true,
-      size: 0.0005,
+      size: 0.001,
       sizeAttenuation: true
     });
     const points = new THREE.Points(geometry, material);
